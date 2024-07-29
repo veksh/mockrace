@@ -11,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.ConfigureHttpJsonOptions(options => {
     options.SerializerOptions.WriteIndented = true;
     options.SerializerOptions.IncludeFields = true;
+    options.SerializerOptions.PropertyNamingPolicy = null;
 });
 builder.Services.AddCors(
     options => {
