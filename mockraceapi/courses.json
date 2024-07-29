@@ -67,6 +67,53 @@
         "State": "",
         "ToD": "0"
       }
+    ],
+    "Categories": [
+      {
+        "Category": "0-?"
+      },
+      {
+        "Category": "1-?"
+      },
+      {
+        "Category": "1-M"
+      },
+      {
+        "Category": "1-F"
+      },
+      {
+        "Category": "2-?"
+      },
+      {
+        "Category": "2-M-50+"
+      },
+      {
+        "Category": "2-W-40+"
+      },
+      {
+        "Category": "2-M-60+"
+      },
+      {
+        "Category": "2-M-65+"
+      },
+      {
+        "Category": "2-M-40+"
+      },
+      {
+        "Category": "2-M-offen"
+      },
+      {
+        "Category": "2-e-Gravel"
+      },
+      {
+        "Category": "2-M-45+"
+      },
+      {
+        "Category": "2-W-offen"
+      },
+      {
+        "Category": "2-M-55+"
+      }
     ]
   },
   {
@@ -172,6 +219,53 @@
         "State": "1",
         "ToD": "0"
       }
+    ],
+    "Categories": [
+      {
+        "Category": "0-?"
+      },
+      {
+        "Category": "1-?"
+      },
+      {
+        "Category": "1-M"
+      },
+      {
+        "Category": "1-F"
+      },
+      {
+        "Category": "2-?"
+      },
+      {
+        "Category": "2-M-50+"
+      },
+      {
+        "Category": "2-W-40+"
+      },
+      {
+        "Category": "2-M-60+"
+      },
+      {
+        "Category": "2-M-65+"
+      },
+      {
+        "Category": "2-M-40+"
+      },
+      {
+        "Category": "2-M-offen"
+      },
+      {
+        "Category": "2-e-Gravel"
+      },
+      {
+        "Category": "2-M-45+"
+      },
+      {
+        "Category": "2-W-offen"
+      },
+      {
+        "Category": "2-M-55+"
+      }
     ]
   },
   {
@@ -263,6 +357,17 @@
         "State": "1",
         "ToD": "0"
       }
+    ],
+    "Categories": [
+      {
+        "Category": "0-?"
+      },
+      {
+        "Category": "1-?"
+      },
+      {
+        "Category": "2-?"
+      }
     ]
   },
   {
@@ -346,6 +451,17 @@
         "ID": "1004",
         "State": "1",
         "ToD": "0"
+      }
+    ],
+    "Categories": [
+      {
+        "Category": "0-?"
+      },
+      {
+        "Category": "1-?"
+      },
+      {
+        "Category": "2-?"
       }
     ]
   },
@@ -431,6 +547,17 @@
         "State": "1",
         "ToD": "0"
       }
+    ],
+    "Categories": [
+      {
+        "Category": "0-?"
+      },
+      {
+        "Category": "1-?"
+      },
+      {
+        "Category": "2-?"
+      }
     ]
   },
   {
@@ -507,6 +634,17 @@
         "ID": "1003",
         "State": "1",
         "ToD": "0"
+      }
+    ],
+    "Categories": [
+      {
+        "Category": "0-?"
+      },
+      {
+        "Category": "1-?"
+      },
+      {
+        "Category": "2-?"
       }
     ]
   },
@@ -585,6 +723,17 @@
         "State": "1",
         "ToD": "0"
       }
+    ],
+    "Categories": [
+      {
+        "Category": "0-?"
+      },
+      {
+        "Category": "1-?"
+      },
+      {
+        "Category": "2-?"
+      }
     ]
   },
   {
@@ -661,6 +810,53 @@
         "ID": "1000",
         "State": "1",
         "ToD": "0"
+      }
+    ],
+    "Categories": [
+      {
+        "Category": "0-?"
+      },
+      {
+        "Category": "1-?"
+      },
+      {
+        "Category": "1-M"
+      },
+      {
+        "Category": "1-F"
+      },
+      {
+        "Category": "2-?"
+      },
+      {
+        "Category": "2-M-50+"
+      },
+      {
+        "Category": "2-W-40+"
+      },
+      {
+        "Category": "2-M-60+"
+      },
+      {
+        "Category": "2-M-65+"
+      },
+      {
+        "Category": "2-M-40+"
+      },
+      {
+        "Category": "2-M-offen"
+      },
+      {
+        "Category": "2-e-Gravel"
+      },
+      {
+        "Category": "2-M-45+"
+      },
+      {
+        "Category": "2-W-offen"
+      },
+      {
+        "Category": "2-M-55+"
       }
     ]
   }

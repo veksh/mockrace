@@ -67,7 +67,7 @@
       "status": "-",
       "START_CHECK_ET2_Time": "00:00:01.5",
       "TURN1_ET2_Time": "00:07:51.2",
-      "TURN2_ET2_ Time": "00:17:28.9",
+      "TURN2_ET2_Time": "00:17:28.9",
       "FINISH_ET2_Time": "00:26:18.8"
     }, {}
   ]
