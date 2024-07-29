@@ -26,18 +26,6 @@ var app = builder.Build();
 var mware = app.MapGroup("/middleware");
 
 // curl -v https://mockraceapi.fly.dev/middleware/
-mware.MapGet("/", () =>
-{
-    app.Logger.LogInformation("reached it");
-    var ans = Enumerable.Range(1, 5).Select(index =>
-        new SomeInfo (
-            "here",
-            Random.Shared.Next(-100, 100)
-        ))
-        .ToArray();
-    return ans;
-});
-
 // /info/json?setting=courses
 // /info/json?setting=splits&course=101
 // /info/json?setting=categories&course=101
@@ -50,13 +38,13 @@ mware.MapGet("/info/json", (string setting, int? course) => {
     {
         case "courses":
             // return TypedResults.Ok("here is your courses list");
-            var courses = new CourseInfo[] {
+            var courses = new CourseBasicInfo[] {
                 new(100, "first",  "olympics"),
                 new(101, "second", "olympics"),
                 new(101, "third",  "olympics")
             };
             return TypedResults.Ok(
-                new Dictionary<string, CourseInfo[]>{["Courses"] = courses});
+                new Dictionary<string, CourseBasicInfo[]>{["Courses"] = courses});
         case "categories":
             return TypedResults.Ok($"here are categories for course {course}");
         case "splits":
@@ -69,14 +57,38 @@ mware.MapGet("/info/json", (string setting, int? course) => {
 // /result/json?course=102&detail=start,gender,status&splitnr=101,109,119,199
 mware.MapGet("/result/json", (int course, string detail, string splitnr) => {
     app.Logger.LogInformation("results");
-    return Results.Ok($"here are results for {course}");
+    return Results.Ok($"results for {course} will be here");
 });
 
 app.Run();
 
-record SomeInfo(string Name, int? Value) {}
-
-record CourseInfo(
+record CourseBasicInfo(
     int    Coursenr,
     string Coursename,
     string Eventname) {}
+
+record CourseData (
+    string Coursenr,
+    string Coursename,
+    string Event,
+    string Eventname,
+    string Status,
+    string Timeoffset,
+    string Ordering,
+    string Remark) {}
+
+record SplitData (
+    string Splitnr,
+    string Splitname,
+    string ID,
+    string State,
+    string ToD) {}
+
+record CategoryData (
+    string Category) {}
+
+record CourseInfo (
+    CourseData Course,
+    SplitData[] Splits,
+    CategoryData[] Categories
+) {}
