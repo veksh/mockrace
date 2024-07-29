@@ -18,18 +18,8 @@ builder.Services.AddCors(
             });
 });
 
-if (builder.Environment.EnvironmentName == Environments.Development) {
-    builder.Logging.AddSimpleConsole(options => {
-        options.IncludeScopes = true;
-        options.SingleLine = true;
-        options.TimestampFormat = "HH:mm:ss "; // "yyyy-MM-dd HH:mm:ss zzz"
-    });
-} else {
-    builder.Logging.AddSimpleConsole(options => {
-        options.IncludeScopes = true;
-        options.SingleLine = true;
-    });
-}
+// logging settings: moved to appsettings.json
+// see https://learn.microsoft.com/en-us/dotnet/core/extensions/console-log-formatter#set-formatter-with-configuration
 
 var app = builder.Build();
 // common prefix
