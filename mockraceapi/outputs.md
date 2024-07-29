@@ -56,7 +56,7 @@
 - other details: category, age; first, last; club, team
 - filter by category: `&categ=1-F`
 - filter by field: `&filter=gender:W.*`
-- top 10 at split 199: `&rank=199&splitnr=199,199100&count=10`
+- top 10 at split 199: `&rank=199&splitnr=199&count=10`
 - expected answer is like
 ``` json
 {

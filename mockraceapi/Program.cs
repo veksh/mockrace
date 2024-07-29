@@ -46,20 +46,28 @@ var mware = app.MapGroup("/middleware");
 // /info/json?setting=categories&course=101
 mware.MapGet("/info/json", (string setting, int? course) => {
     app.Logger.LogInformation($"info for {setting} requested");
-    if (setting != "courses" && !course.HasValue) {
-         return Results.BadRequest("course number must be present");
+    if (setting == "courses") {
+        var data = courses!.Select(x => x.Course).ToArray();
+        return TypedResults.Ok(
+            new Dictionary<string, CourseData[]>{["Courses"] = data});
+    }
+    if (!course.HasValue) {
+        return Results.BadRequest("course number must be present");
+    }
+    var courseInfo = courses!.Find(x => x.Course.Coursenr == course.ToString());
+    if (courseInfo == null) {
+        return TypedResults.NotFound($"do not know about course {course}");
     }
     switch (setting)
     {
-        case "courses":
-            // return TypedResults.Ok("here is your courses list");
-            var courseDatas = courses!.Select(x => x.Course).ToArray();
-            return TypedResults.Ok(
-                new Dictionary<string, CourseData[]>{["Courses"] = courseDatas});
         case "categories":
-            return TypedResults.Ok($"here are categories for course {course}");
+            return TypedResults.Ok(
+                new Dictionary<string, CategoryData[]>{
+                    ["Categories"] = courseInfo.Categories});
         case "splits":
-            return TypedResults.Ok($"here are splits for course {course}");
+            return TypedResults.Ok(
+                new Dictionary<string, SplitData[]>{
+                    ["Splits"] = courseInfo.Splits});
         default:
             return TypedResults.NotFound($"do not know about {setting}");
     }
