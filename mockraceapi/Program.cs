@@ -52,13 +52,9 @@ mware.MapGet("/info/json", (string setting, int? course) => {
     {
         case "courses":
             // return TypedResults.Ok("here is your courses list");
-            var courses = new CourseBasicInfo[] {
-                new(100, "first",  "olympics"),
-                new(101, "second", "olympics"),
-                new(101, "third",  "olympics")
-            };
+            var courseDatas = courses!.Select(x => x.Course).ToArray();
             return TypedResults.Ok(
-                new Dictionary<string, CourseBasicInfo[]>{["Courses"] = courses});
+                new Dictionary<string, CourseData[]>{["Courses"] = courseDatas});
         case "categories":
             return TypedResults.Ok($"here are categories for course {course}");
         case "splits":
@@ -75,11 +71,6 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr) => {
 });
 
 app.Run();
-
-record CourseBasicInfo(
-    int    Coursenr,
-    string Coursename,
-    string Eventname) {}
 
 record CourseData (
     string Coursenr,
