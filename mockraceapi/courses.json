@@ -1,0 +1,667 @@
+[
+  {
+    "Course": {
+      "Coursenr": "100",
+      "Coursename": "STARTLISTE",
+      "Event": "2409200",
+      "Eventname": "TDKGRAVEL 2024",
+      "Status": "1",
+      "Timeoffset": "7200",
+      "Ordering": "5",
+      "Remark": ""
+    },
+    "Splits": [
+      {
+        "Splitnr": "100",
+        "Splitname": "STARTLIST",
+        "ID": "0",
+        "State": "1",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "109",
+        "Splitname": "TURN1_DUMMY",
+        "ID": "1",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "119",
+        "Splitname": "TURN2_DUMMY",
+        "ID": "2",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "199",
+        "Splitname": "FINISH_DUMMY",
+        "ID": "3",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "109100",
+        "Splitname": "dummy",
+        "ID": "1000",
+        "State": "",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "119109",
+        "Splitname": "dummy",
+        "ID": "1002",
+        "State": "",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "199100",
+        "Splitname": "dummy_netto",
+        "ID": "1001",
+        "State": "",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "199119",
+        "Splitname": "dummy",
+        "ID": "1003",
+        "State": "",
+        "ToD": "0"
+      }
+    ]
+  },
+  {
+    "Course": {
+      "Coursenr": "101",
+      "Coursename": "ETAPPE1",
+      "Event": "2409200",
+      "Eventname": "TDKGRAVEL 2024",
+      "Status": "1",
+      "Timeoffset": "7200",
+      "Ordering": "130",
+      "Remark": ""
+    },
+    "Splits": [
+      {
+        "Splitnr": "100",
+        "Splitname": "START_DUMMY_ET1",
+        "ID": "0",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "101",
+        "Splitname": "START_CHECK_ET1",
+        "ID": "1",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "109",
+        "Splitname": "TURN1_ET1",
+        "ID": "2",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "111",
+        "Splitname": "TURN1_BU_ET1",
+        "ID": "3",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "119",
+        "Splitname": "TURN2_ET1",
+        "ID": "4",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "196",
+        "Splitname": "SPEAKER_ET1",
+        "ID": "5",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "197",
+        "Splitname": "SPEAKER_BU_ET1",
+        "ID": "6",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "198",
+        "Splitname": "FINISH_BU_ET1",
+        "ID": "7",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "199",
+        "Splitname": "FINISH_ET1",
+        "ID": "8",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "109100",
+        "Splitname": "0-32km",
+        "ID": "1000",
+        "State": "1",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "119109",
+        "Splitname": "32-78km",
+        "ID": "1002",
+        "State": "1",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "199100",
+        "Splitname": "NETTO_ET1",
+        "ID": "1001",
+        "State": "1",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "199119",
+        "Splitname": "78-116km",
+        "ID": "1003",
+        "State": "1",
+        "ToD": "0"
+      }
+    ]
+  },
+  {
+    "Course": {
+      "Coursenr": "102",
+      "Coursename": "ETAPPE2",
+      "Event": "2409200",
+      "Eventname": "TDKGRAVEL 2024",
+      "Status": "1",
+      "Timeoffset": "7200",
+      "Ordering": "150",
+      "Remark": ""
+    },
+    "Splits": [
+      {
+        "Splitnr": "100",
+        "Splitname": "START_DUMMY",
+        "ID": "0",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "101",
+        "Splitname": "START_CHECK_ET2",
+        "ID": "1",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "102",
+        "Splitname": "START_BU_ET2",
+        "ID": "2",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "109",
+        "Splitname": "TURN1_ET2",
+        "ID": "3",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "119",
+        "Splitname": "TURN2_ET2",
+        "ID": "4",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "198",
+        "Splitname": "FINISH_BU_ET2",
+        "ID": "5",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "199",
+        "Splitname": "FINISH_ET2",
+        "ID": "6",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "109100",
+        "Splitname": "0-4.3km",
+        "ID": "1000",
+        "State": "1",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "119109",
+        "Splitname": "4.3-10.7km",
+        "ID": "1002",
+        "State": "1",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "199100",
+        "Splitname": "NETTO_ET2",
+        "ID": "1001",
+        "State": "1",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "199119",
+        "Splitname": "10.7-16.4km",
+        "ID": "1003",
+        "State": "1",
+        "ToD": "0"
+      }
+    ]
+  },
+  {
+    "Course": {
+      "Coursenr": "103",
+      "Coursename": "ETAPPE3",
+      "Event": "2409200",
+      "Eventname": "TDKGRAVEL 2024",
+      "Status": "1",
+      "Timeoffset": "7200",
+      "Ordering": "160",
+      "Remark": ""
+    },
+    "Splits": [
+      {
+        "Splitnr": "100",
+        "Splitname": "START_DUMMY_ET3",
+        "ID": "0",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "101",
+        "Splitname": "START_CHECK_ET3",
+        "ID": "1",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "109",
+        "Splitname": "TURN1_ET3",
+        "ID": "2",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "119",
+        "Splitname": "TURN2_ET3",
+        "ID": "3",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "199",
+        "Splitname": "FINISH_ET3",
+        "ID": "4",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "109100",
+        "Splitname": "0-3.6km",
+        "ID": "1000",
+        "State": "1",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "119109",
+        "Splitname": "3.6-7km",
+        "ID": "1003",
+        "State": "1",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "199100",
+        "Splitname": "NETTO_ET3",
+        "ID": "1001",
+        "State": "1",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "199101",
+        "Splitname": "individual_et3",
+        "ID": "1002",
+        "State": "",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "199119",
+        "Splitname": "7-16.3km",
+        "ID": "1004",
+        "State": "1",
+        "ToD": "0"
+      }
+    ]
+  },
+  {
+    "Course": {
+      "Coursenr": "104",
+      "Coursename": "ETAPPE4",
+      "Event": "2409200",
+      "Eventname": "TDKGRAVEL 2024",
+      "Status": "1",
+      "Timeoffset": "7200",
+      "Ordering": "170",
+      "Remark": ""
+    },
+    "Splits": [
+      {
+        "Splitnr": "100",
+        "Splitname": "START_DUMMY_ET4",
+        "ID": "0",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "101",
+        "Splitname": "START_ET4",
+        "ID": "1",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "109",
+        "Splitname": "TURN1_ET4",
+        "ID": "2",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "119",
+        "Splitname": "TURN2_ET4",
+        "ID": "3",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "198",
+        "Splitname": "FINISH_BU_ET4",
+        "ID": "4",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "199",
+        "Splitname": "FINISH_ET4",
+        "ID": "5",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "109100",
+        "Splitname": "0-45km",
+        "ID": "1000",
+        "State": "1",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "119109",
+        "Splitname": "45-71km",
+        "ID": "1002",
+        "State": "1",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "199100",
+        "Splitname": "NETTO_ET4",
+        "ID": "1001",
+        "State": "1",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "199119",
+        "Splitname": "71-81km",
+        "ID": "1003",
+        "State": "1",
+        "ToD": "0"
+      }
+    ]
+  },
+  {
+    "Course": {
+      "Coursenr": "105",
+      "Coursename": "ETAPPE5",
+      "Event": "2409200",
+      "Eventname": "TDKGRAVEL 2024",
+      "Status": "1",
+      "Timeoffset": "7200",
+      "Ordering": "180",
+      "Remark": ""
+    },
+    "Splits": [
+      {
+        "Splitnr": "100",
+        "Splitname": "START_DUMMY_ET5",
+        "ID": "0",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "101",
+        "Splitname": "START_CHECK_ET5",
+        "ID": "1",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "109",
+        "Splitname": "TURN1_ET5",
+        "ID": "2",
+        "State": "0",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "119",
+        "Splitname": "TURN2_ET5",
+        "ID": "3",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "199",
+        "Splitname": "FINISH_ET5",
+        "ID": "4",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "109100",
+        "Splitname": "0-53km",
+        "ID": "1000",
+        "State": "1",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "119109",
+        "Splitname": "53-98km",
+        "ID": "1002",
+        "State": "1",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "199100",
+        "Splitname": "NETTO_ET5",
+        "ID": "1001",
+        "State": "1",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "199119",
+        "Splitname": "98-110km",
+        "ID": "1003",
+        "State": "1",
+        "ToD": "0"
+      }
+    ]
+  },
+  {
+    "Course": {
+      "Coursenr": "106",
+      "Coursename": "ETAPPE6",
+      "Event": "2409200",
+      "Eventname": "TDKGRAVEL 2024",
+      "Status": "1",
+      "Timeoffset": "7200",
+      "Ordering": "190",
+      "Remark": ""
+    },
+    "Splits": [
+      {
+        "Splitnr": "100",
+        "Splitname": "START_DUMMY",
+        "ID": "0",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "101",
+        "Splitname": "START_CHECK_ET6",
+        "ID": "1",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "109",
+        "Splitname": "TURN1_ET6",
+        "ID": "2",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "119",
+        "Splitname": "TURN2_ET6",
+        "ID": "3",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "199",
+        "Splitname": "FINISH_ET6",
+        "ID": "4",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "109100",
+        "Splitname": "0-21km",
+        "ID": "1000",
+        "State": "1",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "119109",
+        "Splitname": "21-56km",
+        "ID": "1002",
+        "State": "1",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "199100",
+        "Splitname": "NETTO_ET6",
+        "ID": "1001",
+        "State": "1",
+        "ToD": "0"
+      },
+      {
+        "Splitnr": "199119",
+        "Splitname": "56-64km",
+        "ID": "1003",
+        "State": "1",
+        "ToD": "0"
+      }
+    ]
+  },
+  {
+    "Course": {
+      "Coursenr": "110",
+      "Coursename": "TOTAL",
+      "Event": "2409200",
+      "Eventname": "TDKGRAVEL 2024",
+      "Status": "1",
+      "Timeoffset": "7200",
+      "Ordering": "200",
+      "Remark": ""
+    },
+    "Splits": [
+      {
+        "Splitnr": "100",
+        "Splitname": "START_DUMMY_TOTAL",
+        "ID": "0",
+        "State": "",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "101",
+        "Splitname": "ETAPPE 1",
+        "ID": "1",
+        "State": "1",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "102",
+        "Splitname": "ETAPPE 2",
+        "ID": "2",
+        "State": "1",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "103",
+        "Splitname": "ETAPPE 3",
+        "ID": "3",
+        "State": "1",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "104",
+        "Splitname": "ETAPPE 4",
+        "ID": "4",
+        "State": "1",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "105",
+        "Splitname": "ETAPPE 5",
+        "ID": "5",
+        "State": "1",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "106",
+        "Splitname": "ETAPPE 6",
+        "ID": "6",
+        "State": "1",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "199",
+        "Splitname": "TOTAL_TOUR",
+        "ID": "7",
+        "State": "0",
+        "ToD": "1"
+      },
+      {
+        "Splitnr": "199100",
+        "Splitname": "NETTO_TOTAL",
+        "ID": "1000",
+        "State": "1",
+        "ToD": "0"
+      }
+    ]
+  }
+]
