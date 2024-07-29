@@ -1,44 +1,39 @@
-var builder = WebApplication.CreateBuilder(args);
+// see https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+// var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(new WebApplicationOptions
+{
+    Args = args,
+    // also: ASPNETCORE_APPLICATIONNAME	--applicationName
+    // ApplicationName = typeof(Program).Assembly.FullName,
+    // also: ASPNETCORE_ENVIRONMENT	--environment
+    // EnvironmentName = Environments.Staging,
+    // and then Console.WriteLine($"Environment Name: {builder.Environment.EnvironmentName}");
+    WebRootPath = "middleware"
+    // config: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-8.0#read-configuration
+});
+
+builder.Services.ConfigureHttpJsonOptions(options => {
+    options.SerializerOptions.WriteIndented = true;
+    options.SerializerOptions.IncludeFields = true;
+});
 
 var app = builder.Build();
+// common prefix
+var mware = app.MapGroup("/middleware");
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+mware.MapGet("/", () =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
-app.UseHttpsRedirection();
-
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
+    app.Logger.LogInformation("reached it");
+    var ans = Enumerable.Range(1, 5).Select(index =>
+        new SomeInfo (
+            "here",
+            Random.Shared.Next(-100, 100)
         ))
         .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast")
-.WithOpenApi();
+    return ans;
+});
 
 app.Run();
 
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
+record SomeInfo(string Name, int? Value) {}

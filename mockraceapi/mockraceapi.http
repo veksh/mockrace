@@ -1,6 +1,0 @@
-@mockraceapi_HostAddress = http://localhost:5181
-
-GET {{mockraceapi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
