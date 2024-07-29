@@ -4,6 +4,8 @@
 
 // see https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis
 
+using System.Text.Json;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.ConfigureHttpJsonOptions(options => {
@@ -22,6 +24,18 @@ builder.Services.AddCors(
 // see https://learn.microsoft.com/en-us/dotnet/core/extensions/console-log-formatter#set-formatter-with-configuration
 
 var app = builder.Build();
+
+// read common data
+var coursesFileName = "data/courses.json";
+var courses = new List<CourseInfo>{};
+try {
+    var coursesStr = new StreamReader($"{coursesFileName}").ReadToEnd();
+    courses = JsonSerializer.Deserialize<List<CourseInfo>>(coursesStr);
+} catch (IOException e) {
+    app.Logger.LogError(e, "could not open file {fileName}", coursesFileName);
+}
+// Console.WriteLine(JsonSerializer.Serialize(courses!.First().Course));
+
 // common prefix
 var mware = app.MapGroup("/middleware");
 
@@ -92,3 +106,4 @@ record CourseInfo (
     SplitData[] Splits,
     CategoryData[] Categories
 ) {}
+
