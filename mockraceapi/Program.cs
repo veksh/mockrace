@@ -51,11 +51,18 @@ mware.MapGet("/info/json", (string setting, int? course) => {
     switch (setting)
     {
         case "courses":
-            return TypedResults.Ok("here is your courses list");
-        case "splits":
-            return TypedResults.Ok($"here are splits for course {course}");
+            // return TypedResults.Ok("here is your courses list");
+            var courses = new CourseInfo[] {
+                new(100, "first",  "olympics"),
+                new(101, "second", "olympics"),
+                new(101, "third",  "olympics")
+            };
+            return TypedResults.Ok(
+                new Dictionary<string, CourseInfo[]>{["Courses"] = courses});
         case "categories":
             return TypedResults.Ok($"here are categories for course {course}");
+        case "splits":
+            return TypedResults.Ok($"here are splits for course {course}");
         default:
             return TypedResults.NotFound($"do not know about {setting}");
     }
@@ -70,3 +77,8 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr) => {
 app.Run();
 
 record SomeInfo(string Name, int? Value) {}
+
+record CourseInfo(
+    int    Coursenr,
+    string Coursename,
+    string Eventname) {}
