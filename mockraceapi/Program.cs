@@ -1,3 +1,7 @@
+// fly deploy
+// fly logs
+// curl -v 'https://mockraceapi.fly.dev/middleware/info/json?setting=bebebe&course=101'
+
 // see https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,6 +27,7 @@ var app = builder.Build();
 // common prefix
 var mware = app.MapGroup("/middleware");
 
+// curl -v https://mockraceapi.fly.dev/middleware/
 mware.MapGet("/", () =>
 {
     app.Logger.LogInformation("reached it");
