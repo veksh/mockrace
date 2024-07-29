@@ -44,8 +44,21 @@ mware.MapGet("/", () =>
 // /info/json?setting=splits&course=101
 // /info/json?setting=categories&course=101
 mware.MapGet("/info/json", (string setting, int? course) => {
-    app.Logger.LogInformation("info");
-    return Results.Ok($"here are setting {setting} for course {course ?? 0}");
+    app.Logger.LogInformation($"info for {setting} requested");
+    if (setting != "courses" && !course.HasValue) {
+         return Results.BadRequest("course number must be present");
+    }
+    switch (setting)
+    {
+        case "courses":
+            return TypedResults.Ok("here is your courses list");
+        case "splits":
+            return TypedResults.Ok($"here are splits for course {course}");
+        case "categories":
+            return TypedResults.Ok($"here are categories for course {course}");
+        default:
+            return TypedResults.NotFound($"do not know about {setting}");
+    }
 });
 
 // /result/json?course=102&detail=start,gender,status&splitnr=101,109,119,199
