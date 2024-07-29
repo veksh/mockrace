@@ -17,11 +17,19 @@ builder.Services.AddCors(
                 policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
             });
 });
-builder.Logging.AddSimpleConsole(options => {
-    options.IncludeScopes = true;
-    options.SingleLine = true;
-    options.TimestampFormat = "HH:mm:ss "; // "yyyy-MM-dd HH:mm:ss zzz"
-});
+
+if (builder.Environment.EnvironmentName == Environments.Development) {
+    builder.Logging.AddSimpleConsole(options => {
+        options.IncludeScopes = true;
+        options.SingleLine = true;
+        options.TimestampFormat = "HH:mm:ss "; // "yyyy-MM-dd HH:mm:ss zzz"
+    });
+} else {
+    builder.Logging.AddSimpleConsole(options => {
+        options.IncludeScopes = true;
+        options.SingleLine = true;
+    });
+}
 
 var app = builder.Build();
 // common prefix
