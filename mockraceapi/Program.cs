@@ -82,14 +82,14 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr, int cou
         return Results.NotFound($"do not know about course {course}");
     }
     var splitsToInclude = splitnr.Split(",");
-    // var res = new List<Dictionary<string, string>>{};
-    // res.Add(new Dictionary<string, string>{
-    //     ["pobedil"] = "krokodil"
-    // });
-    // var res = Enumerable.Range(1, count).Select(index =>
-    //     new Dictionary<string, string>{
-    //         ["pobedil"] = "krokodil"
-    //     }).ToList();
+    var detailsToInclude = detail.Split(",");
+
+    var detailMakers = new Dictionary<string, Func<int, string>> {
+        ["start"]  = n => n.ToString(),
+        ["gender"] = n => n % 2 == 0 ? "M" : "W",
+        ["status"] = n => "-"
+    };
+
     var res = Enumerable.Range(1, count).Select(index => {
         var reachedStage = Random.Shared.Next(0, splitsToInclude.Length + 1);
         var runner = courseInfo.Splits
@@ -101,8 +101,13 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr, int cou
                         Convert.ToUInt16(p.ID),
                         index)
                     : "-");
+        detailsToInclude
+            .Where(d => detailMakers.ContainsKey(d))
+            .ToList()
+            .ForEach(d => runner.Add(d, detailMakers[d](index)));
         return runner;
     }).ToList();
+
     return TypedResults.Ok(
         new Dictionary<string,List<Dictionary<string, string>>>{
             ["Course"] = res});
