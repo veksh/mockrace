@@ -4,6 +4,7 @@
 
 // see https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis
 
+using System.ComponentModel.DataAnnotations;
 using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -90,11 +91,12 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr, int cou
     //         ["pobedil"] = "krokodil"
     //     }).ToList();
     var res = Enumerable.Range(1, count).Select(index => {
+        var reachedStage = Random.Shared.Next(0, splitsToInclude.Length + 1);
         var runner = courseInfo.Splits
             .Where(p => splitsToInclude.Contains(p.Splitnr))
             .ToDictionary(
                 p => p.Splitname,
-                p => "00:01:02.3");
+                p => reachedStage >= Convert.ToUInt16(p.ID) ? "00:01:02.3" : "-");
         return runner;
     }).ToList();
     return TypedResults.Ok(
