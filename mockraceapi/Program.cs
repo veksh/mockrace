@@ -80,6 +80,7 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr, int cou
     if (courseInfo == null) {
         return Results.NotFound($"do not know about course {course}");
     }
+    var splitsToInclude = splitnr.Split(",");
     // var res = new List<Dictionary<string, string>>{};
     // res.Add(new Dictionary<string, string>{
     //     ["pobedil"] = "krokodil"
@@ -90,9 +91,10 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr, int cou
     //     }).ToList();
     var res = Enumerable.Range(1, count).Select(index => {
         var runner = courseInfo.Splits
-            .Where(p => p.Splitnr.CompareTo("100") > 0)
-            .Where(p => p.Splitnr.Length < 4)
-            .ToDictionary(p => p.Splitname, p => "00:01:02.3");
+            .Where(p => splitsToInclude.Contains(p.Splitnr))
+            .ToDictionary(
+                p => p.Splitname,
+                p => "00:01:02.3");
         return runner;
     }).ToList();
     return TypedResults.Ok(
