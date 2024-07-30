@@ -82,9 +82,8 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr, int cou
     if (courseInfo == null) {
         return Results.NotFound($"do not know about course {course}");
     }
-    var splitsToInclude = splitnr.Split(",");
-    var detailsToInclude = detail.Split(",");
 
+    var detailsToInclude = detail.Split(",");
     var detailMakers = new Dictionary<string, Func<int, string>> {
         ["start"]  = n => n.ToString(),
         ["gender"] = n => n % 2 == 0 ? "M" : "W",
@@ -93,21 +92,28 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr, int cou
         ["last"]   = n => "Runner " + n.ToString()
     };
 
-    var stageCalc = new Dictionary<string, Func<int, int>> {
-        ["random"] = n => Random.Shared.Next(0, splitsToInclude.Length + 1)
+    var splitsToInclude = splitnr.Split(",");
+    var reachedSplitCalc = new Dictionary<string, Func<int, int>> {
+        ["random"]  = n => Random.Shared.Next(0, splitsToInclude.Length+1),
+        ["linear1"] = n => DateTime.Now.Minute < n - 1
+            ? -1
+            : splitsToInclude.Length*(DateTime.Now.Minute-(n-2))/60
     };
 
     var res = Enumerable.Range(1, count).Select(index => {
-        var reachedStage = stageCalc["random"](index);
+        var reachedSplit = reachedSplitCalc["linear1"](index);
+
         var runner = courseInfo.Splits
             .Where(p => splitsToInclude.Contains(p.Splitnr))
+            .Zip(Enumerable.Range(1, splitsToInclude.Length))
             .ToDictionary(
-                p => p.Splitname,
-                p => reachedStage >= Convert.ToUInt16(p.ID)
-                    ? string.Format("00:{0:00}:02.{1}",
-                        Convert.ToUInt16(p.ID),
+                p => p.First.Splitname,
+                p => reachedSplit >= Convert.ToUInt16(p.Second)
+                    ? string.Format("00:{0:00}:00.{1}",
+                        Convert.ToUInt16(p.Second),
                         index)
                     : "-");
+
         detailsToInclude
             .Where(d => detailMakers.ContainsKey(d))
             .ToList()
