@@ -93,8 +93,12 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr, int cou
         ["last"]   = n => "Runner " + n.ToString()
     };
 
+    var stageCalc = new Dictionary<string, Func<int, int>> {
+        ["random"] = n => Random.Shared.Next(0, splitsToInclude.Length + 1)
+    };
+
     var res = Enumerable.Range(1, count).Select(index => {
-        var reachedStage = Random.Shared.Next(0, splitsToInclude.Length + 1);
+        var reachedStage = stageCalc["random"](index);
         var runner = courseInfo.Splits
             .Where(p => splitsToInclude.Contains(p.Splitnr))
             .ToDictionary(
