@@ -96,7 +96,11 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr, int cou
             .Where(p => splitsToInclude.Contains(p.Splitnr))
             .ToDictionary(
                 p => p.Splitname,
-                p => reachedStage >= Convert.ToUInt16(p.ID) ? "00:01:02.3" : "-");
+                p => reachedStage >= Convert.ToUInt16(p.ID)
+                    ? string.Format("00:{0:00}:02.{1}",
+                        Convert.ToUInt16(p.ID),
+                        index)
+                    : "-");
         return runner;
     }).ToList();
     return TypedResults.Ok(
