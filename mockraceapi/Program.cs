@@ -75,6 +75,7 @@ mware.MapGet("/info/json", (string setting, int? course) => {
 });
 
 // /result/json?course=102&detail=start,gender,status&splitnr=101,109,119,199
+// https://mockraceapi.fly.dev/middleware/result/json?s&course=101&detail=yes&splitnr=101,109,111&count=10&detail=star,gender,first,last,status
 mware.MapGet("/result/json", (int course, string detail, string splitnr, int count = 3) => {
     app.Logger.LogInformation($"results for {course} requested");
     var courseInfo = courses!.Find(x => x.Course.Coursenr == course.ToString());
@@ -87,7 +88,9 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr, int cou
     var detailMakers = new Dictionary<string, Func<int, string>> {
         ["start"]  = n => n.ToString(),
         ["gender"] = n => n % 2 == 0 ? "M" : "W",
-        ["status"] = n => "-"
+        ["status"] = n => "-",
+        ["first"]  = n => n % 2 == 0 ? "Mr" : "Ms",
+        ["last"]   = n => "Runner " + n.ToString()
     };
 
     var res = Enumerable.Range(1, count).Select(index => {
