@@ -96,8 +96,8 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr, int cou
     var reachedSplitCalc = new Dictionary<string, Func<int, int>> {
         ["random"]  = n => Random.Shared.Next(0, splitsToInclude.Length+1),
         ["linear1"] = n => DateTime.Now.Minute < n - 1
-            ? -1
-            : splitsToInclude.Length*(DateTime.Now.Minute-(n-2))/60
+            ? 0
+            : 1+(splitsToInclude.Length - 1)*(0-(n-2))/60
     };
 
     var res = Enumerable.Range(1, count).Select(index => {
