@@ -74,16 +74,20 @@ mware.MapGet("/info/json", (string setting, int? course) => {
 });
 
 // /result/json?course=102&detail=start,gender,status&splitnr=101,109,119,199
-mware.MapGet("/result/json", (int course, string detail, string splitnr) => {
+mware.MapGet("/result/json", (int course, string detail, string splitnr, int count = 3) => {
     app.Logger.LogInformation($"results for {course} requested");
     var courseInfo = courses!.Find(x => x.Course.Coursenr == course.ToString());
     if (courseInfo == null) {
         return Results.NotFound($"do not know about course {course}");
     }
-    var res = new List<Dictionary<string, string>>{};
-    res.Add(new Dictionary<string, string>{
-        ["pobedil"] = "krokodil"
-    });
+    // var res = new List<Dictionary<string, string>>{};
+    // res.Add(new Dictionary<string, string>{
+    //     ["pobedil"] = "krokodil"
+    // });
+    var res = Enumerable.Range(1, count).Select(index =>
+        new Dictionary<string, string>{
+            ["pobedil"] = "krokodil"
+        }).ToList();
     return TypedResults.Ok(
         new Dictionary<string,List<Dictionary<string, string>>>{
             ["Course"] = res});
