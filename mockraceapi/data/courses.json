@@ -13,7 +13,7 @@
     "Meta": {"Schedule": "linear"},
     "Splits": [
       {
-        "Splitnr": "100",
+        "Splitnr": "101",
         "Splitname": "START",
         "ID": "0"
       },
@@ -28,7 +28,7 @@
         "ID": "2"
       },
       {
-        "Splitnr": "300",
+        "Splitnr": "301",
         "Splitname": "FINISH",
         "ID": "3"
       }
