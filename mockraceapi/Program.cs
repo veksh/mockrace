@@ -93,11 +93,16 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr, int cou
     };
 
     var splitsToInclude = splitnr.Split(",");
+    // curr split for runner n, 1..count
+    // <= 0 means "not started", 0 "started" ... len(splits)-1 "finished"
     var reachedSplitCalc = new Dictionary<string, Func<int, int>> {
-        ["random"]  = n => Random.Shared.Next(0, splitsToInclude.Length+1),
-        ["linear1"] = n => DateTime.Now.Minute < n - 1
-            ? 0
-            : 1+(splitsToInclude.Length - 1)*(0-(n-2))/60
+        // from "not started" to "finished" with equal probability
+        ["random"]  = n => Random.Shared.Next(-1, splitsToInclude.Length),
+        // first start at minute 0 and finish at 59, the rest start every minute
+        // splits are of equal length, so 1st is reached after 60/Nsplits minutes etc
+        ["linear1"] = n => (int)System.Math.Floor(
+            (decimal)(DateTime.Now.Minute-(n-1))
+            /((decimal)59/(splitsToInclude.Length-1)))
     };
 
     var res = Enumerable.Range(1, count).Select(index => {
@@ -105,7 +110,7 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr, int cou
 
         var runner = courseInfo.Splits
             .Where(p => splitsToInclude.Contains(p.Splitnr))
-            .Zip(Enumerable.Range(1, splitsToInclude.Length))
+            .Zip(Enumerable.Range(0, splitsToInclude.Length))
             .ToDictionary(
                 p => p.First.Splitname,
                 p => reachedSplit >= Convert.ToUInt16(p.Second)
