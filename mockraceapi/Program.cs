@@ -97,17 +97,17 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr, int cou
     // <= 0 means "not started", 0 "started" ... len(splits)-1 "finished"
     var reachedSplitCalc = new Dictionary<string, Func<int, int>> {
         // from "not started" to "finished" with equal probability
-        ["random"]  = n => Random.Shared.Next(-1, splitsToInclude.Length),
+        ["random"] = n => Random.Shared.Next(-1, splitsToInclude.Length),
         // first start at minute 0 and finish at 59, the rest start every minute
         // splits are of equal length, so 1st is reached after 60/Nsplits minutes etc
-        ["linear1"] = n => (int)System.Math.Floor(
+        ["linear"] = n => (int)System.Math.Floor(
             (decimal)(DateTime.Now.Minute-(n-1))
             /((decimal)59/(splitsToInclude.Length-1)))
     };
 
     var res = Enumerable.Range(1, count).Select(index => {
-        var reachedSplit = reachedSplitCalc["linear1"](index);
-
+        // var reachedSplit = reachedSplitCalc["linear"](index);
+        var reachedSplit = reachedSplitCalc[courseInfo.Meta.Schedule](index);
         var runner = courseInfo.Splits
             .Where(p => splitsToInclude.Contains(p.Splitnr))
             .Zip(Enumerable.Range(0, splitsToInclude.Length))
@@ -143,6 +143,9 @@ record CourseData (
     string Ordering,
     string Remark) {}
 
+record CourseMeta (
+    string Schedule){}
+
 record SplitData (
     string Splitnr,
     string Splitname,
@@ -155,6 +158,7 @@ record CategoryData (
 
 record CourseInfo (
     CourseData Course,
+    CourseMeta Meta,
     SplitData[] Splits,
     CategoryData[] Categories
 ) {}

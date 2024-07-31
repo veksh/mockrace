@@ -4,9 +4,13 @@
       "Coursenr": "999",
       "Coursename": "PLAYGROUND1",
       "Event": "2409200",
-      "Eventname": "PLAYGROUND"
+      "Eventname": "PLAYGROUND",
+      "Status": "1",
+      "Timeoffset": "7200",
+      "Ordering": "5",
+      "Remark": ""
     },
-    "Meta": {"schedule": "linear"},
+    "Meta": {"Schedule": "linear"},
     "Splits": [
       {
         "Splitnr": "100",
@@ -67,7 +71,7 @@
       "Ordering": "5",
       "Remark": ""
     },
-    "Meta": {"schedule": "random"},
+    "Meta": {"Schedule": "random"},
     "Splits": [
       {
         "Splitnr": "100",
@@ -185,7 +189,7 @@
       "Ordering": "130",
       "Remark": ""
     },
-    "Meta": {"schedule": "linear"},
+    "Meta": {"Schedule": "linear"},
     "Splits": [
       {
         "Splitnr": "100",
@@ -338,7 +342,7 @@
       "Ordering": "150",
       "Remark": ""
     },
-    "Meta": {"schedule": "linear"},
+    "Meta": {"Schedule": "linear"},
     "Splits": [
       {
         "Splitnr": "100",
@@ -441,7 +445,7 @@
       "Ordering": "160",
       "Remark": ""
     },
-    "Meta": {"schedule": "linear"},
+    "Meta": {"Schedule": "linear"},
     "Splits": [
       {
         "Splitnr": "100",
@@ -537,7 +541,7 @@
       "Ordering": "170",
       "Remark": ""
     },
-    "Meta": {"schedule": "linear"},
+    "Meta": {"Schedule": "linear"},
     "Splits": [
       {
         "Splitnr": "100",
@@ -633,7 +637,7 @@
       "Ordering": "180",
       "Remark": ""
     },
-    "Meta": {"schedule": "linear"},
+    "Meta": {"Schedule": "linear"},
     "Splits": [
       {
         "Splitnr": "100",
@@ -722,7 +726,7 @@
       "Ordering": "190",
       "Remark": ""
     },
-    "Meta": {"schedule": "linear"},
+    "Meta": {"Schedule": "linear"},
     "Splits": [
       {
         "Splitnr": "100",
@@ -811,7 +815,7 @@
       "Ordering": "200",
       "Remark": ""
     },
-    "Meta": {"schedule": "random"},
+    "Meta": {"Schedule": "random"},
     "Splits": [
       {
         "Splitnr": "100",
