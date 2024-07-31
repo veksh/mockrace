@@ -1,6 +1,63 @@
 [
   {
     "Course": {
+      "Coursenr": "999",
+      "Coursename": "PLAYGROUND1",
+      "Event": "2409200",
+      "Eventname": "PLAYGROUND"
+    },
+    "Meta": {"schedule": "linear"},
+    "Splits": [
+      {
+        "Splitnr": "100",
+        "Splitname": "START",
+        "ID": "0"
+      },
+      {
+        "Splitnr": "201",
+        "Splitname": "TURN1",
+        "ID": "1"
+      },
+      {
+        "Splitnr": "202",
+        "Splitname": "TURN2",
+        "ID": "2"
+      },
+      {
+        "Splitnr": "300",
+        "Splitname": "FINISH",
+        "ID": "3"
+      }
+    ],
+    "Categories": [
+      {
+        "Category": "M10-15"
+      },
+      {
+        "Category": "F10-15"
+      },
+      {
+        "Category": "M16-20"
+      },
+      {
+        "Category": "F16-20"
+      },
+      {
+        "Category": "M21-39"
+      },
+      {
+        "Category": "F21-39"
+      },
+      {
+        "Category": "F40+"
+      },
+      {
+        "Category": "M40+"
+      }
+    ]
+  },
+  {
+    "Course": {
       "Coursenr": "100",
       "Coursename": "STARTLISTE",
       "Event": "2409200",
@@ -10,6 +67,7 @@
       "Ordering": "5",
       "Remark": ""
     },
+    "Meta": {"schedule": "random"},
     "Splits": [
       {
         "Splitnr": "100",
@@ -127,6 +185,7 @@
       "Ordering": "130",
       "Remark": ""
     },
+    "Meta": {"schedule": "linear"},
     "Splits": [
       {
         "Splitnr": "100",
@@ -279,6 +338,7 @@
       "Ordering": "150",
       "Remark": ""
     },
+    "Meta": {"schedule": "linear"},
     "Splits": [
       {
         "Splitnr": "100",
@@ -381,6 +441,7 @@
       "Ordering": "160",
       "Remark": ""
     },
+    "Meta": {"schedule": "linear"},
     "Splits": [
       {
         "Splitnr": "100",
@@ -476,6 +537,7 @@
       "Ordering": "170",
       "Remark": ""
     },
+    "Meta": {"schedule": "linear"},
     "Splits": [
       {
         "Splitnr": "100",
@@ -571,6 +633,7 @@
       "Ordering": "180",
       "Remark": ""
     },
+    "Meta": {"schedule": "linear"},
     "Splits": [
       {
         "Splitnr": "100",
@@ -659,6 +722,7 @@
       "Ordering": "190",
       "Remark": ""
     },
+    "Meta": {"schedule": "linear"},
     "Splits": [
       {
         "Splitnr": "100",
@@ -747,6 +811,7 @@
       "Ordering": "200",
       "Remark": ""
     },
+    "Meta": {"schedule": "random"},
     "Splits": [
       {
         "Splitnr": "100",
