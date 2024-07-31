@@ -45,16 +45,14 @@ var mware = app.MapGroup("/middleware");
 // /info/json?setting=courses
 // /info/json?setting=splits&course=101
 // /info/json?setting=categories&course=101
-mware.MapGet("/info/json", (string setting, int? course) => {
+mware.MapGet("/info/json", (string setting, int course) => {
     app.Logger.LogInformation($"info for {setting} requested");
     if (setting == "courses") {
         var data = courses!.Select(x => x.Course).ToArray();
-        return TypedResults.Ok(
+        return Results.Ok(
             new Dictionary<string, CourseData[]>{["Courses"] = data});
     }
-    if (!course.HasValue) {
-        return Results.BadRequest("course number must be present");
-    }
+
     var courseInfo = courses!.Find(x => x.Course.Coursenr == course.ToString());
     if (courseInfo == null) {
         return TypedResults.NotFound($"do not know about course {course}");
@@ -76,12 +74,17 @@ mware.MapGet("/info/json", (string setting, int? course) => {
 
 // /result/json?course=102&detail=start,gender,status&splitnr=101,109,119,199
 // https://mockraceapi.fly.dev/middleware/result/json?s&course=101&detail=yes&splitnr=101,109,111&count=10&detail=star,gender,first,last,status
-mware.MapGet("/result/json", (int course, string detail, string splitnr, int count = 3) => {
+mware.MapGet("/result/json", (int course, string detail, string splitnr, int? count) => {
     app.Logger.LogInformation($"results for {course} requested");
     var courseInfo = courses!.Find(x => x.Course.Coursenr == course.ToString());
     if (courseInfo == null) {
         return Results.NotFound($"do not know about course {course}");
     }
+
+    if (!count.HasValue) {
+        count = courseInfo.Meta.DefCount;
+    }
+    app.Logger.LogInformation($"will make up for {count} results");
 
     var detailsToInclude = detail.Split(",");
     var detailMakers = new Dictionary<string, Func<int, string>> {
@@ -105,7 +108,7 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr, int cou
             /((decimal)59/(splitsToInclude.Length-1)))
     };
 
-    var res = Enumerable.Range(1, count).Select(index => {
+    var res = Enumerable.Range(1, (int)count).Select(index => {
         // var reachedSplit = reachedSplitCalc["linear"](index);
         var reachedSplit = reachedSplitCalc[courseInfo.Meta.Schedule](index);
         var runner = courseInfo.Splits
@@ -144,7 +147,8 @@ record CourseData (
     string Remark) {}
 
 record CourseMeta (
-    string Schedule){}
+    string Schedule,
+    int DefCount){}
 
 record SplitData (
     string Splitnr,

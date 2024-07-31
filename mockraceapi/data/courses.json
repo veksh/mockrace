@@ -10,7 +10,10 @@
       "Ordering": "5",
       "Remark": ""
     },
-    "Meta": {"Schedule": "linear"},
+    "Meta": {
+      "Schedule": "random",
+      "DefCount": 10
+    },
     "Splits": [
       {
         "Splitnr": "101",
@@ -71,7 +74,10 @@
       "Ordering": "5",
       "Remark": ""
     },
-    "Meta": {"Schedule": "random"},
+    "Meta": {
+      "Schedule": "random",
+      "DefCount": 50
+    },
     "Splits": [
       {
         "Splitnr": "100",
@@ -189,7 +195,10 @@
       "Ordering": "130",
       "Remark": ""
     },
-    "Meta": {"Schedule": "linear"},
+    "Meta": {
+      "Schedule": "linear",
+      "DefCount": 60
+    },
     "Splits": [
       {
         "Splitnr": "100",
@@ -342,7 +351,10 @@
       "Ordering": "150",
       "Remark": ""
     },
-    "Meta": {"Schedule": "linear"},
+    "Meta": {
+      "Schedule": "linear",
+      "DefCount": 70
+    },
     "Splits": [
       {
         "Splitnr": "100",
@@ -445,7 +457,10 @@
       "Ordering": "160",
       "Remark": ""
     },
-    "Meta": {"Schedule": "linear"},
+    "Meta": {
+      "Schedule": "linear",
+      "DefCount": 80
+    },
     "Splits": [
       {
         "Splitnr": "100",
@@ -541,7 +556,10 @@
       "Ordering": "170",
       "Remark": ""
     },
-    "Meta": {"Schedule": "linear"},
+    "Meta": {
+      "Schedule": "linear",
+      "DefCount": 90
+    },
     "Splits": [
       {
         "Splitnr": "100",
@@ -637,7 +655,10 @@
       "Ordering": "180",
       "Remark": ""
     },
-    "Meta": {"Schedule": "linear"},
+    "Meta": {
+      "Schedule": "linear",
+      "DefCount": 100
+    },
     "Splits": [
       {
         "Splitnr": "100",
@@ -726,7 +747,10 @@
       "Ordering": "190",
       "Remark": ""
     },
-    "Meta": {"Schedule": "linear"},
+    "Meta": {
+      "Schedule": "linear",
+      "DefCount": 110
+    },
     "Splits": [
       {
         "Splitnr": "100",
@@ -815,7 +839,10 @@
       "Ordering": "200",
       "Remark": ""
     },
-    "Meta": {"Schedule": "random"},
+    "Meta": {
+      "Schedule": "random",
+      "DefCount": 120
+    },
     "Splits": [
       {
         "Splitnr": "100",
