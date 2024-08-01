@@ -54,7 +54,7 @@ mware.MapGet("/info/json", (string setting, int? course) => {
     }
 
     if (!course.HasValue) {
-        return TypedResults.BadRequest("course parameter missing")
+        return TypedResults.BadRequest("course parameter missing");
     }
 
     var courseInfo = courses!.Find(x => x.Course.Coursenr == course.ToString());
