@@ -45,12 +45,16 @@ var mware = app.MapGroup("/middleware");
 // /info/json?setting=courses
 // /info/json?setting=splits&course=101
 // /info/json?setting=categories&course=101
-mware.MapGet("/info/json", (string setting, int course) => {
+mware.MapGet("/info/json", (string setting, int? course) => {
     app.Logger.LogInformation($"info for {setting} requested");
     if (setting == "courses") {
         var data = courses!.Select(x => x.Course).ToArray();
         return Results.Ok(
             new Dictionary<string, CourseData[]>{["Courses"] = data});
+    }
+
+    if (!course.HasValue) {
+        return TypedResults.BadRequest("course parameter missing")
     }
 
     var courseInfo = courses!.Find(x => x.Course.Coursenr == course.ToString());
