@@ -221,7 +221,7 @@
         "ToD": "1"
       },
       {
-        "Splitnr": "111",
+        "Splitnr": "1110",
         "Splitname": "TURN1_BU_ET1",
         "ID": "3",
         "State": "",
@@ -235,21 +235,21 @@
         "ToD": "1"
       },
       {
-        "Splitnr": "196",
+        "Splitnr": "1960",
         "Splitname": "SPEAKER_ET1",
         "ID": "5",
         "State": "",
         "ToD": "1"
       },
       {
-        "Splitnr": "197",
+        "Splitnr": "1970",
         "Splitname": "SPEAKER_BU_ET1",
         "ID": "6",
         "State": "",
         "ToD": "1"
       },
       {
-        "Splitnr": "198",
+        "Splitnr": "1980",
         "Splitname": "FINISH_BU_ET1",
         "ID": "7",
         "State": "",
