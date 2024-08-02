@@ -1,0 +1,3076 @@
+{
+  "Course_101": [
+    {
+      "start": "1",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:47.5",
+      "TURN1_ET1_Time": "01:01:03.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "2",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:48.5",
+      "TURN1_ET1_Time": "01:03:43.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "3",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:50.8",
+      "TURN1_ET1_Time": "01:03:46.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "4",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:50.0",
+      "TURN1_ET1_Time": "01:11:32.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "5",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:49.0",
+      "TURN1_ET1_Time": "01:06:14.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "6",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:48.9",
+      "TURN1_ET1_Time": "01:03:46.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "7",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:49.5",
+      "TURN1_ET1_Time": "00:58:33.3",
+      "TURN2_ET1_Time": "02:55:30.8",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "8",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:52.8",
+      "TURN1_ET1_Time": "01:08:09.3",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "9",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:51.3",
+      "TURN1_ET1_Time": "01:04:17.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "10",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:49.4",
+      "TURN1_ET1_Time": "00:58:36.9",
+      "TURN2_ET1_Time": "02:55:51.4",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "11",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:52.5",
+      "TURN1_ET1_Time": "01:06:54.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "12",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:50.9",
+      "TURN1_ET1_Time": "01:03:32.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "13",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "14",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:52.3",
+      "TURN1_ET1_Time": "01:03:32.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "15",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:56.4",
+      "TURN1_ET1_Time": "01:11:07.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "16",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:51.9",
+      "TURN1_ET1_Time": "01:05:00.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "17",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:54.3",
+      "TURN1_ET1_Time": "01:01:06.0",
+      "TURN2_ET1_Time": "02:59:41.4",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "18",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:55.5",
+      "TURN1_ET1_Time": "01:01:03.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "19",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:55.3",
+      "TURN1_ET1_Time": "01:05:47.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "20",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:54.5",
+      "TURN1_ET1_Time": "01:10:04.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "21",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:52.6",
+      "TURN1_ET1_Time": "01:10:02.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "22",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:53.4",
+      "TURN1_ET1_Time": "01:13:21.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "23",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:51.6",
+      "TURN1_ET1_Time": "01:01:08.1",
+      "TURN2_ET1_Time": "02:59:52.8",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "24",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:52.4",
+      "TURN1_ET1_Time": "01:03:41.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "25",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:01:02.0",
+      "TURN1_ET1_Time": "01:13:38.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "26",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:55.3",
+      "TURN1_ET1_Time": "01:08:13.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "27",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:54.7",
+      "TURN1_ET1_Time": "01:15:07.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "28",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:50.2",
+      "TURN1_ET1_Time": "01:05:42.3",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "29",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:49.3",
+      "TURN1_ET1_Time": "01:08:08.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "30",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:54.1",
+      "TURN1_ET1_Time": "01:07:57.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "31",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "32",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:51.0",
+      "TURN1_ET1_Time": "01:10:03.3",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "34",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:53.7",
+      "TURN1_ET1_Time": "01:10:04.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "35",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:57.1",
+      "TURN1_ET1_Time": "01:40:13.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "36",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:58.2",
+      "TURN1_ET1_Time": "01:24:00.3",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "37",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:53.4",
+      "TURN1_ET1_Time": "01:09:06.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "38",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "00:00:56.1",
+      "TURN1_ET1_Time": "01:17:21.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "40",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "41",
+      "gender": "W",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "51",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:18.7",
+      "TURN1_ET1_Time": "00:56:26.1",
+      "TURN2_ET1_Time": "02:50:00.3",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "52",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:27.9",
+      "TURN1_ET1_Time": "00:53:49.3",
+      "TURN2_ET1_Time": "02:31:00.4",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "53",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:20.8",
+      "TURN1_ET1_Time": "00:53:47.8",
+      "TURN2_ET1_Time": "02:34:24.3",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "54",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:20.4",
+      "TURN1_ET1_Time": "00:55:02.6",
+      "TURN2_ET1_Time": "02:42:28.1",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "55",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:24.5",
+      "TURN1_ET1_Time": "01:00:54.3",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "56",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:24.2",
+      "TURN1_ET1_Time": "00:58:33.8",
+      "TURN2_ET1_Time": "02:55:31.4",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "57",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:23.4",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "58",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:23.9",
+      "TURN1_ET1_Time": "00:54:30.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "59",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:25.4",
+      "TURN1_ET1_Time": "00:56:27.6",
+      "TURN2_ET1_Time": "02:47:58.9",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "60",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:22.6",
+      "TURN1_ET1_Time": "00:56:20.6",
+      "TURN2_ET1_Time": "02:48:09.3",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "61",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:24.6",
+      "TURN1_ET1_Time": "00:56:23.1",
+      "TURN2_ET1_Time": "02:50:07.9",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "62",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:19.5",
+      "TURN1_ET1_Time": "00:54:29.8",
+      "TURN2_ET1_Time": "02:39:59.0",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "63",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:05.8",
+      "TURN1_ET1_Time": "00:58:29.1",
+      "TURN2_ET1_Time": "02:49:03.5",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "64",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:05.3",
+      "TURN1_ET1_Time": "00:56:21.1",
+      "TURN2_ET1_Time": "02:46:42.3",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "65",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:03.5",
+      "TURN1_ET1_Time": "00:54:18.8",
+      "TURN2_ET1_Time": "02:44:27.0",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "66",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:27.6",
+      "TURN1_ET1_Time": "00:56:24.6",
+      "TURN2_ET1_Time": "02:45:50.2",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "67",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:21.2",
+      "TURN1_ET1_Time": "00:53:46.7",
+      "TURN2_ET1_Time": "02:33:15.6",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "68",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:23.0",
+      "TURN1_ET1_Time": "00:53:52.2",
+      "TURN2_ET1_Time": "02:35:58.2",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "69",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:13.4",
+      "TURN1_ET1_Time": "00:56:24.2",
+      "TURN2_ET1_Time": "02:51:21.3",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "70",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:04.0",
+      "TURN1_ET1_Time": "00:56:22.4",
+      "TURN2_ET1_Time": "02:48:38.4",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "71",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:12.9",
+      "TURN1_ET1_Time": "00:56:25.7",
+      "TURN2_ET1_Time": "02:55:30.8",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "72",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:04.2",
+      "TURN1_ET1_Time": "00:58:37.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "73",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:10.6",
+      "TURN1_ET1_Time": "00:54:16.3",
+      "TURN2_ET1_Time": "02:41:04.5",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "74",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:17.7",
+      "TURN1_ET1_Time": "00:53:47.3",
+      "TURN2_ET1_Time": "02:33:15.3",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "75",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:17.7",
+      "TURN1_ET1_Time": "00:54:18.0",
+      "TURN2_ET1_Time": "02:39:23.2",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "76",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:17.0",
+      "TURN1_ET1_Time": "01:01:02.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "77",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:24.5",
+      "TURN1_ET1_Time": "00:54:10.4",
+      "TURN2_ET1_Time": "02:42:28.4",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "78",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:14.3",
+      "TURN1_ET1_Time": "00:54:29.3",
+      "TURN2_ET1_Time": "02:53:55.6",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "79",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:16.4",
+      "TURN1_ET1_Time": "01:03:41.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "80",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:20.8",
+      "TURN1_ET1_Time": "00:56:18.6",
+      "TURN2_ET1_Time": "02:47:16.7",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "81",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:19.6",
+      "TURN1_ET1_Time": "00:56:21.4",
+      "TURN2_ET1_Time": "02:48:12.1",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "82",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:11.6",
+      "TURN1_ET1_Time": "00:56:22.6",
+      "TURN2_ET1_Time": "02:48:10.3",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "83",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:11.7",
+      "TURN1_ET1_Time": "00:53:49.0",
+      "TURN2_ET1_Time": "02:40:08.8",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "84",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:13.7",
+      "TURN1_ET1_Time": "00:54:17.5",
+      "TURN2_ET1_Time": "02:41:17.6",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "85",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:09.2",
+      "TURN1_ET1_Time": "00:56:22.6",
+      "TURN2_ET1_Time": "02:46:17.3",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "86",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:18.3",
+      "TURN1_ET1_Time": "00:58:09.3",
+      "TURN2_ET1_Time": "02:47:56.3",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "87",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:02.7",
+      "TURN1_ET1_Time": "00:56:21.9",
+      "TURN2_ET1_Time": "02:51:43.8",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "88",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:03.0",
+      "TURN1_ET1_Time": "00:54:20.0",
+      "TURN2_ET1_Time": "02:43:49.2",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "89",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:07.1",
+      "TURN1_ET1_Time": "00:58:34.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "90",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:04.2",
+      "TURN1_ET1_Time": "00:53:52.6",
+      "TURN2_ET1_Time": "02:39:56.7",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "91",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:05.5",
+      "TURN1_ET1_Time": "00:56:21.6",
+      "TURN2_ET1_Time": "02:55:24.0",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "92",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:24.4",
+      "TURN1_ET1_Time": "00:58:37.3",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "94",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:09.6",
+      "TURN1_ET1_Time": "00:56:24.7",
+      "TURN2_ET1_Time": "02:45:17.2",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "95",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:26.7",
+      "TURN1_ET1_Time": "00:56:22.0",
+      "TURN2_ET1_Time": "02:54:37.4",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "96",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:18.7",
+      "TURN1_ET1_Time": "00:56:21.0",
+      "TURN2_ET1_Time": "02:46:16.6",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "97",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:26.4",
+      "TURN1_ET1_Time": "00:56:23.1",
+      "TURN2_ET1_Time": "02:51:10.5",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "98",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:27.5",
+      "TURN1_ET1_Time": "00:53:47.0",
+      "TURN2_ET1_Time": "02:31:00.7",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "99",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:09.1",
+      "TURN1_ET1_Time": "00:57:01.5",
+      "TURN2_ET1_Time": "02:51:02.7",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "100",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:10.6",
+      "TURN1_ET1_Time": "00:53:45.8",
+      "TURN2_ET1_Time": "02:27:42.8",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "101",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:05.8",
+      "TURN1_ET1_Time": "00:53:47.9",
+      "TURN2_ET1_Time": "02:33:14.6",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "102",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:06.6",
+      "TURN1_ET1_Time": "00:56:18.9",
+      "TURN2_ET1_Time": "02:43:44.7",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "103",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:07.9",
+      "TURN1_ET1_Time": "00:54:19.8",
+      "TURN2_ET1_Time": "02:39:57.5",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "104",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:05.0",
+      "TURN1_ET1_Time": "00:53:46.2",
+      "TURN2_ET1_Time": "02:31:00.9",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "105",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:02.8",
+      "TURN1_ET1_Time": "01:01:04.8",
+      "TURN2_ET1_Time": "02:51:36.2",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "106",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:08.2",
+      "TURN1_ET1_Time": "00:53:48.9",
+      "TURN2_ET1_Time": "02:33:14.9",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "107",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:09.3",
+      "TURN1_ET1_Time": "00:56:17.7",
+      "TURN2_ET1_Time": "02:43:45.2",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "108",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:10.6",
+      "TURN1_ET1_Time": "00:53:48.4",
+      "TURN2_ET1_Time": "02:39:22.5",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "109",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:04.6",
+      "TURN1_ET1_Time": "00:56:18.3",
+      "TURN2_ET1_Time": "02:45:35.8",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "110",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:06.6",
+      "TURN1_ET1_Time": "00:53:48.6",
+      "TURN2_ET1_Time": "02:39:22.6",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "111",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:21.4",
+      "TURN1_ET1_Time": "01:01:07.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "112",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:28.3",
+      "TURN1_ET1_Time": "01:00:57.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "114",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:26.5",
+      "TURN1_ET1_Time": "00:56:27.1",
+      "TURN2_ET1_Time": "02:55:26.8",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "115",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:08.4",
+      "TURN1_ET1_Time": "00:54:02.5",
+      "TURN2_ET1_Time": "02:37:48.6",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "116",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:07.6",
+      "TURN1_ET1_Time": "00:54:11.5",
+      "TURN2_ET1_Time": "02:39:58.0",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "117",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:09.0",
+      "TURN1_ET1_Time": "00:56:20.8",
+      "TURN2_ET1_Time": "02:43:45.7",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "118",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:22.2",
+      "TURN1_ET1_Time": "00:54:16.8",
+      "TURN2_ET1_Time": "02:39:58.9",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "119",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:48.2",
+      "TURN1_ET1_Time": "01:04:16.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "120",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:21.8",
+      "TURN1_ET1_Time": "01:01:07.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "121",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:11.7",
+      "TURN1_ET1_Time": "00:54:19.4",
+      "TURN2_ET1_Time": "02:39:23.5",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "122",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:25.4",
+      "TURN1_ET1_Time": "00:58:36.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "123",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:22.3",
+      "TURN1_ET1_Time": "00:56:17.3",
+      "TURN2_ET1_Time": "02:44:20.2",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "124",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:16.6",
+      "TURN1_ET1_Time": "00:57:37.5",
+      "TURN2_ET1_Time": "02:55:16.7",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "125",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:25.5",
+      "TURN1_ET1_Time": "00:58:36.3",
+      "TURN2_ET1_Time": "02:53:55.1",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "126",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:14.9",
+      "TURN1_ET1_Time": "00:56:19.7",
+      "TURN2_ET1_Time": "02:48:16.1",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "127",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:20.1",
+      "TURN1_ET1_Time": "00:58:32.9",
+      "TURN2_ET1_Time": "02:52:25.2",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "129",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:23.2",
+      "TURN1_ET1_Time": "00:56:20.0",
+      "TURN2_ET1_Time": "02:46:17.6",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "130",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:12.5",
+      "TURN1_ET1_Time": "00:56:16.8",
+      "TURN2_ET1_Time": "02:51:21.6",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "131",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:25.7",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "132",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:11.2",
+      "TURN1_ET1_Time": "01:00:04.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "133",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:20.1",
+      "TURN1_ET1_Time": "00:58:28.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "134",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:06.9",
+      "TURN1_ET1_Time": "00:55:03.4",
+      "TURN2_ET1_Time": "02:46:18.2",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "135",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:13.2",
+      "TURN1_ET1_Time": "00:54:09.4",
+      "TURN2_ET1_Time": "02:39:58.5",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "136",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:07.2",
+      "TURN1_ET1_Time": "00:54:09.8",
+      "TURN2_ET1_Time": "02:39:57.8",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "137",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:19.3",
+      "TURN1_ET1_Time": "01:01:08.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "138",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "140",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:23.2",
+      "TURN1_ET1_Time": "00:56:22.1",
+      "TURN2_ET1_Time": "02:57:04.4",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "141",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:14.9",
+      "TURN1_ET1_Time": "00:54:30.3",
+      "TURN2_ET1_Time": "02:45:16.8",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "142",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "143",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:15.0",
+      "TURN1_ET1_Time": "00:58:36.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "144",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:10.0",
+      "TURN1_ET1_Time": "00:58:32.3",
+      "TURN2_ET1_Time": "02:58:56.7",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "145",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:18.8",
+      "TURN1_ET1_Time": "00:56:25.2",
+      "TURN2_ET1_Time": "02:48:38.1",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "146",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:21.8",
+      "TURN1_ET1_Time": "00:58:36.0",
+      "TURN2_ET1_Time": "02:57:55.4",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "147",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:10.7",
+      "TURN1_ET1_Time": "00:56:19.7",
+      "TURN2_ET1_Time": "02:48:10.7",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "148",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:13.8",
+      "TURN1_ET1_Time": "01:01:07.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "149",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:04.4",
+      "TURN1_ET1_Time": "00:54:10.9",
+      "TURN2_ET1_Time": "02:39:24.5",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "150",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:16.1",
+      "TURN1_ET1_Time": "00:55:02.5",
+      "TURN2_ET1_Time": "02:44:20.5",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "151",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:12.7",
+      "TURN1_ET1_Time": "00:58:33.6",
+      "TURN2_ET1_Time": "02:59:52.2",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "152",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:13.8",
+      "TURN1_ET1_Time": "01:05:44.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "153",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:05.5",
+      "TURN1_ET1_Time": "00:56:23.8",
+      "TURN2_ET1_Time": "02:50:08.3",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "154",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:16.9",
+      "TURN1_ET1_Time": "00:58:29.7",
+      "TURN2_ET1_Time": "02:57:16.8",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "155",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:09.1",
+      "TURN1_ET1_Time": "00:58:30.2",
+      "TURN2_ET1_Time": "02:51:22.0",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "156",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:07.4",
+      "TURN1_ET1_Time": "01:01:03.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "157",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:19.1",
+      "TURN1_ET1_Time": "01:01:06.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "158",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:17.9",
+      "TURN1_ET1_Time": "01:03:33.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "159",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:18.4",
+      "TURN1_ET1_Time": "01:00:54.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "160",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:17.8",
+      "TURN1_ET1_Time": "00:56:23.5",
+      "TURN2_ET1_Time": "02:48:10.1",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "161",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:14.6",
+      "TURN1_ET1_Time": "00:58:35.3",
+      "TURN2_ET1_Time": "02:51:10.8",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "162",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:09.7",
+      "TURN1_ET1_Time": "00:58:36.9",
+      "TURN2_ET1_Time": "02:57:38.5",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "163",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:35.6",
+      "TURN1_ET1_Time": "00:58:31.5",
+      "TURN2_ET1_Time": "02:51:21.0",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "164",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:33.9",
+      "TURN1_ET1_Time": "01:01:43.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "165",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "166",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:30.9",
+      "TURN1_ET1_Time": "00:56:20.3",
+      "TURN2_ET1_Time": "02:57:42.2",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "167",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:43.8",
+      "TURN1_ET1_Time": "01:03:44.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "168",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "169",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:45.1",
+      "TURN1_ET1_Time": "01:03:42.3",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "171",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:43.8",
+      "TURN1_ET1_Time": "01:08:07.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "172",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:46.8",
+      "TURN1_ET1_Time": "01:10:03.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "173",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:32.5",
+      "TURN1_ET1_Time": "00:58:31.9",
+      "TURN2_ET1_Time": "02:53:25.5",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "174",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:37.6",
+      "TURN1_ET1_Time": "01:13:37.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "175",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:38.6",
+      "TURN1_ET1_Time": "01:01:05.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "176",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:39.8",
+      "TURN1_ET1_Time": "01:06:14.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "177",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:39.5",
+      "TURN1_ET1_Time": "00:58:30.6",
+      "TURN2_ET1_Time": "02:59:31.0",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "178",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:40.6",
+      "TURN1_ET1_Time": "01:03:31.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "179",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:35.5",
+      "TURN1_ET1_Time": "01:26:34.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "180",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:32.8",
+      "TURN1_ET1_Time": "01:01:07.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "181",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:35.8",
+      "TURN1_ET1_Time": "01:09:05.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "182",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:15.7",
+      "TURN1_ET1_Time": "00:58:31.1",
+      "TURN2_ET1_Time": "02:55:39.1",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "183",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:40.3",
+      "TURN1_ET1_Time": "01:07:58.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "184",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:42.0",
+      "TURN1_ET1_Time": "01:01:06.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "185",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:09.8",
+      "TURN1_ET1_Time": "01:05:46.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "186",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:34.2",
+      "TURN1_ET1_Time": "01:01:05.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "187",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:44.6",
+      "TURN1_ET1_Time": "01:04:08.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "188",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:42.5",
+      "TURN1_ET1_Time": "01:08:09.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "189",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:43.4",
+      "TURN1_ET1_Time": "01:03:45.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "190",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:34.3",
+      "TURN1_ET1_Time": "01:09:05.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "191",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:35.6",
+      "TURN1_ET1_Time": "01:03:44.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "192",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:32.7",
+      "TURN1_ET1_Time": "01:01:46.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "193",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:43.6",
+      "TURN1_ET1_Time": "01:08:09.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "194",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:34.4",
+      "TURN1_ET1_Time": "01:03:45.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "195",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:31.7",
+      "TURN1_ET1_Time": "01:03:34.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "196",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:34.8",
+      "TURN1_ET1_Time": "01:03:43.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "197",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:39.3",
+      "TURN1_ET1_Time": "01:24:01.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "198",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:40.2",
+      "TURN1_ET1_Time": "00:58:34.7",
+      "TURN2_ET1_Time": "02:53:25.1",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "199",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:42.9",
+      "TURN1_ET1_Time": "01:08:10.3",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "200",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:32.0",
+      "TURN1_ET1_Time": "01:09:07.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "201",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:37.8",
+      "TURN1_ET1_Time": "01:03:34.3",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "202",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:41.0",
+      "TURN1_ET1_Time": "01:01:37.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "203",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:38.8",
+      "TURN1_ET1_Time": "00:58:31.9",
+      "TURN2_ET1_Time": "02:53:25.0",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "204",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:40.8",
+      "TURN1_ET1_Time": "01:05:43.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "205",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:41.2",
+      "TURN1_ET1_Time": "01:03:45.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "206",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:42.7",
+      "TURN1_ET1_Time": "01:03:42.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "207",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:36.8",
+      "TURN1_ET1_Time": "01:13:53.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "208",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:34.4",
+      "TURN1_ET1_Time": "00:56:23.6",
+      "TURN2_ET1_Time": "02:48:09.6",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "209",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:12.4",
+      "TURN1_ET1_Time": "00:56:25.6",
+      "TURN2_ET1_Time": "02:47:20.6",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "210",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:38.9",
+      "TURN1_ET1_Time": "01:06:14.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "211",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:37.4",
+      "TURN1_ET1_Time": "00:58:32.6",
+      "TURN2_ET1_Time": "02:53:25.9",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "212",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:33.9",
+      "TURN1_ET1_Time": "01:01:44.3",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "213",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:36.2",
+      "TURN1_ET1_Time": "01:04:18.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "214",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:36.5",
+      "TURN1_ET1_Time": "01:07:58.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "215",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:44.8",
+      "TURN1_ET1_Time": "00:58:35.3",
+      "TURN2_ET1_Time": "02:58:18.6",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "216",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:32.4",
+      "TURN1_ET1_Time": "00:58:34.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "217",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:46.1",
+      "TURN1_ET1_Time": "00:58:36.2",
+      "TURN2_ET1_Time": "02:57:04.7",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "218",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:45.0",
+      "TURN1_ET1_Time": "00:58:35.6",
+      "TURN2_ET1_Time": "02:56:20.1",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "219",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:47.1",
+      "TURN1_ET1_Time": "01:05:47.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "220",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:46.9",
+      "TURN1_ET1_Time": "00:58:35.1",
+      "TURN2_ET1_Time": "02:57:38.5",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "221",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:46.5",
+      "TURN1_ET1_Time": "01:08:14.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "222",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:33.4",
+      "TURN1_ET1_Time": "01:05:44.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "223",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "224",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:45.4",
+      "TURN1_ET1_Time": "01:08:06.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "225",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:44.2",
+      "TURN1_ET1_Time": "01:03:41.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "226",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:59.8",
+      "TURN1_ET1_Time": "01:01:04.3",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "227",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:01.3",
+      "TURN1_ET1_Time": "01:10:04.3",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "228",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:20.0",
+      "TURN1_ET1_Time": "01:08:07.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "229",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:05.1",
+      "TURN1_ET1_Time": "01:05:16.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "230",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "231",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "232",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "233",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:01.8",
+      "TURN1_ET1_Time": "01:05:17.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "234",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:07.8",
+      "TURN1_ET1_Time": "01:08:11.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "235",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:25.1",
+      "TURN1_ET1_Time": "01:16:35.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "236",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:08.8",
+      "TURN1_ET1_Time": "01:22:41.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "237",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:22.3",
+      "TURN1_ET1_Time": "01:34:40.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "238",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:21.2",
+      "TURN1_ET1_Time": "01:11:08.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "239",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:13.9",
+      "TURN1_ET1_Time": "01:01:35.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "240",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:41.9",
+      "TURN1_ET1_Time": "01:00:56.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "241",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:07.4",
+      "TURN1_ET1_Time": "01:03:40.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "242",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:05.8",
+      "TURN1_ET1_Time": "01:05:45.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "243",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "244",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:14.1",
+      "TURN1_ET1_Time": "01:05:46.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "245",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:59.8",
+      "TURN1_ET1_Time": "01:04:08.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "246",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "247",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "248",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "249",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:04.9",
+      "TURN1_ET1_Time": "01:10:48.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "250",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:58.6",
+      "TURN1_ET1_Time": "01:00:19.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "251",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:03.6",
+      "TURN1_ET1_Time": "01:05:45.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "252",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:14.7",
+      "TURN1_ET1_Time": "01:13:37.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "253",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:14.5",
+      "TURN1_ET1_Time": "01:01:35.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "254",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "255",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:06.2",
+      "TURN1_ET1_Time": "01:11:08.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "256",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:31.5",
+      "TURN1_ET1_Time": "01:00:55.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "257",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:25.6",
+      "TURN1_ET1_Time": "01:14:27.3",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "258",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:57.6",
+      "TURN1_ET1_Time": "01:05:17.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "259",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:13.0",
+      "TURN1_ET1_Time": "01:06:53.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "260",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "261",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:17.8",
+      "TURN1_ET1_Time": "01:09:04.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "262",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:03.6",
+      "TURN1_ET1_Time": "01:04:17.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "263",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:37.3",
+      "TURN1_ET1_Time": "01:03:45.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "264",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "265",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:16.7",
+      "TURN1_ET1_Time": "01:19:02.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "266",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:57.1",
+      "TURN1_ET1_Time": "01:08:14.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "267",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "268",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:04.2",
+      "TURN1_ET1_Time": "01:21:43.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "269",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:37.4",
+      "TURN1_ET1_Time": "01:23:14.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "270",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:44.2",
+      "TURN1_ET1_Time": "01:08:12.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "271",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "272",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:40.2",
+      "TURN1_ET1_Time": "01:22:35.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "273",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:54.7",
+      "TURN1_ET1_Time": "01:03:33.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "274",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:18.8",
+      "TURN1_ET1_Time": "01:20:10.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "275",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:20.0",
+      "TURN1_ET1_Time": "01:03:46.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "276",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:03.0",
+      "TURN1_ET1_Time": "01:01:04.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "277",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "278",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:10.7",
+      "TURN1_ET1_Time": "01:16:38.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "279",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:19.3",
+      "TURN1_ET1_Time": "01:26:59.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "280",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:13.8",
+      "TURN1_ET1_Time": "01:01:06.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "281",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:07.6",
+      "TURN1_ET1_Time": "01:10:49.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "282",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:07.5",
+      "TURN1_ET1_Time": "01:15:03.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "283",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:15.0",
+      "TURN1_ET1_Time": "01:08:11.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "284",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:11.6",
+      "TURN1_ET1_Time": "01:34:35.3",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "285",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:02.1",
+      "TURN1_ET1_Time": "01:05:42.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "286",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:12.1",
+      "TURN1_ET1_Time": "01:05:44.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "287",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:00.6",
+      "TURN1_ET1_Time": "01:11:09.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "288",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:59.2",
+      "TURN1_ET1_Time": "01:06:13.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "289",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:15.4",
+      "TURN1_ET1_Time": "01:10:51.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "290",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:12.1",
+      "TURN1_ET1_Time": "01:03:43.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "291",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:22.8",
+      "TURN1_ET1_Time": "00:58:33.5",
+      "TURN2_ET1_Time": "02:51:23.8",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "292",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:07.9",
+      "TURN1_ET1_Time": "01:03:04.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "293",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:02.4",
+      "TURN1_ET1_Time": "01:02:38.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "294",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:05.9",
+      "TURN1_ET1_Time": "00:54:20.3",
+      "TURN2_ET1_Time": "02:48:07.4",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "295",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:58.1",
+      "TURN1_ET1_Time": "00:54:18.1",
+      "TURN2_ET1_Time": "02:39:24.0",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "296",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:13.1",
+      "TURN1_ET1_Time": "01:01:34.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "297",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:16.1",
+      "TURN1_ET1_Time": "00:56:21.5",
+      "TURN2_ET1_Time": "02:46:09.2",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "298",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:06.9",
+      "TURN1_ET1_Time": "01:10:50.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "299",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:14.2",
+      "TURN1_ET1_Time": "00:54:18.4",
+      "TURN2_ET1_Time": "02:39:57.9",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "300",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:15.1",
+      "TURN1_ET1_Time": "01:01:44.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "301",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:20.8",
+      "TURN1_ET1_Time": "01:08:08.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "302",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:09.4",
+      "TURN1_ET1_Time": "01:03:47.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "303",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:16.9",
+      "TURN1_ET1_Time": "01:10:46.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "304",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:56.7",
+      "TURN1_ET1_Time": "00:58:30.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "305",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "306",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "307",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:05.4",
+      "TURN1_ET1_Time": "01:02:24.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "308",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:24.0",
+      "TURN1_ET1_Time": "00:58:34.0",
+      "TURN2_ET1_Time": "02:53:24.4",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "309",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:25.0",
+      "TURN1_ET1_Time": "01:01:08.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "310",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:09.5",
+      "TURN1_ET1_Time": "01:01:36.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "311",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:10.2",
+      "TURN1_ET1_Time": "01:01:37.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "312",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:37.5",
+      "TURN1_ET1_Time": "00:57:00.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "313",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:55.9",
+      "TURN1_ET1_Time": "00:53:48.5",
+      "TURN2_ET1_Time": "02:44:20.4",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "314",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:04.9",
+      "TURN1_ET1_Time": "01:09:03.3",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "315",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:58.0",
+      "TURN1_ET1_Time": "00:56:19.3",
+      "TURN2_ET1_Time": "02:46:37.3",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "316",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:57.1",
+      "TURN1_ET1_Time": "00:56:24.0",
+      "TURN2_ET1_Time": "02:52:49.6",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "317",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "318",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:15.9",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "319",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:10.7",
+      "TURN1_ET1_Time": "01:03:44.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "320",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:11.5",
+      "TURN1_ET1_Time": "00:58:34.9",
+      "TURN2_ET1_Time": "02:55:51.8",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "321",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:19.4",
+      "TURN1_ET1_Time": "01:05:16.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "322",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "323",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:59.0",
+      "TURN1_ET1_Time": "01:10:47.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "324",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "325",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:27.6",
+      "TURN1_ET1_Time": "01:10:48.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "326",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:18.6",
+      "TURN1_ET1_Time": "01:22:21.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "327",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "328",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:26.4",
+      "TURN1_ET1_Time": "00:55:03.0",
+      "TURN2_ET1_Time": "02:40:08.1",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "329",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:04.0",
+      "TURN1_ET1_Time": "01:11:06.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "330",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:15.9",
+      "TURN1_ET1_Time": "01:20:11.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "331",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:23.0",
+      "TURN1_ET1_Time": "01:05:42.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "332",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:16.3",
+      "TURN1_ET1_Time": "01:09:06.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "333",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:57.9",
+      "TURN1_ET1_Time": "00:59:15.5",
+      "TURN2_ET1_Time": "02:59:16.8",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "335",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:01.4",
+      "TURN1_ET1_Time": "01:10:49.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "336",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:08.2",
+      "TURN1_ET1_Time": "01:03:34.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "337",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:13.4",
+      "TURN1_ET1_Time": "01:17:21.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "338",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "339",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:17.0",
+      "TURN1_ET1_Time": "01:10:06.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "340",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "341",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:12.4",
+      "TURN1_ET1_Time": "01:10:01.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "342",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:06.8",
+      "TURN1_ET1_Time": "01:13:20.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "343",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:10.6",
+      "TURN1_ET1_Time": "01:09:07.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "344",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:24.9",
+      "TURN1_ET1_Time": "01:09:08.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "345",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:29.4",
+      "TURN1_ET1_Time": "01:20:11.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "347",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:34.6",
+      "TURN1_ET1_Time": "01:23:12.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "348",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:36.4",
+      "TURN1_ET1_Time": "01:23:15.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "349",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:31.5",
+      "TURN1_ET1_Time": "01:10:49.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "350",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:37.5",
+      "TURN1_ET1_Time": "01:11:31.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "351",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:23.2",
+      "TURN1_ET1_Time": "01:27:06.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "352",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:26.0",
+      "TURN1_ET1_Time": "01:00:57.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "353",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:21.8",
+      "TURN1_ET1_Time": "01:08:10.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "354",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:26.8",
+      "TURN1_ET1_Time": "01:11:07.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "355",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:33.4",
+      "TURN1_ET1_Time": "01:10:50.8",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "356",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:31.4",
+      "TURN1_ET1_Time": "01:10:03.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "357",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "358",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:32.8",
+      "TURN1_ET1_Time": "01:10:51.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "359",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:29.3",
+      "TURN1_ET1_Time": "01:10:50.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "360",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:31.9",
+      "TURN1_ET1_Time": "01:11:06.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "361",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:17.8",
+      "TURN1_ET1_Time": "00:58:31.7",
+      "TURN2_ET1_Time": "02:51:44.2",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "362",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:22.7",
+      "TURN1_ET1_Time": "01:08:13.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "363",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:30.8",
+      "TURN1_ET1_Time": "01:09:04.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "364",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:35.4",
+      "TURN1_ET1_Time": "01:15:07.1",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "365",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:24.5",
+      "TURN1_ET1_Time": "01:05:17.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "366",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:26.9",
+      "TURN1_ET1_Time": "01:15:08.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "367",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "368",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:35.4",
+      "TURN1_ET1_Time": "01:13:21.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "369",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:23.3",
+      "TURN1_ET1_Time": "01:14:41.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "370",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:30.3",
+      "TURN1_ET1_Time": "01:09:05.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "371",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:26.3",
+      "TURN1_ET1_Time": "01:05:43.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "372",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:38.3",
+      "TURN1_ET1_Time": "01:17:16.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "373",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:26.1",
+      "TURN1_ET1_Time": "01:19:04.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "374",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:00:32.0",
+      "TURN1_ET1_Time": "01:00:55.3",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "375",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:23.7",
+      "TURN1_ET1_Time": "01:00:56.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "376",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:40.7",
+      "TURN1_ET1_Time": "01:06:52.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "377",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:21.1",
+      "TURN1_ET1_Time": "01:10:09.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "378",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "379",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:31.8",
+      "TURN1_ET1_Time": "01:08:09.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "380",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:30.0",
+      "TURN1_ET1_Time": "01:23:25.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "381",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:18.0",
+      "TURN1_ET1_Time": "01:06:32.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "382",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:19.7",
+      "TURN1_ET1_Time": "01:28:19.6",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "383",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:38.3",
+      "TURN1_ET1_Time": "01:24:00.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "384",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:28.8",
+      "TURN1_ET1_Time": "01:23:59.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "385",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:20.0",
+      "TURN1_ET1_Time": "01:15:03.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "386",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:29.0",
+      "TURN1_ET1_Time": "01:09:07.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "387",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "388",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "389",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:39.3",
+      "TURN1_ET1_Time": "01:23:16.3",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "390",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:33.7",
+      "TURN1_ET1_Time": "01:17:22.0",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "651",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:20.7",
+      "TURN1_ET1_Time": "01:13:22.4",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "652",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:21.3",
+      "TURN1_ET1_Time": "01:05:41.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "653",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:28.1",
+      "TURN1_ET1_Time": "01:23:17.2",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "654",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:36.0",
+      "TURN1_ET1_Time": "01:22:40.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "655",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:37.1",
+      "TURN1_ET1_Time": "01:22:33.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "656",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:34.6",
+      "TURN1_ET1_Time": "01:20:44.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "657",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:32.6",
+      "TURN1_ET1_Time": "01:21:44.5",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "658",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "659",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:28.4",
+      "TURN1_ET1_Time": "01:22:33.9",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "660",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "-",
+      "TURN1_ET1_Time": "-",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "661",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:36.5",
+      "TURN1_ET1_Time": "01:39:10.7",
+      "TURN2_ET1_Time": "-",
+      "FINISH_ET1_Time": "-"
+    },
+    {
+      "start": "662",
+      "gender": "M",
+      "START_CHECK_ET1_Time": "00:01:08.5",
+      "TURN1_ET1_Time": "00:58:32.4",
+      "TURN2_ET1_Time": "02:57:07.9",
+      "FINISH_ET1_Time": "-"
+    }
+  ]
+}

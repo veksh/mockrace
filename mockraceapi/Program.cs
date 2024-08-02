@@ -85,10 +85,23 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr, int? co
         return Results.NotFound($"do not know about course {course}");
     }
 
+    // splits and count are ignored here, mb later
+    if (courseInfo.Meta.Schedule == "file") {
+        string fName = $"data/results{courseInfo.Course.Coursenr}.json";
+        app.Logger.LogInformation($"reading results from {fName}");
+        try {
+            var fStream = File.OpenRead(fName);
+            return Results.Stream(fStream, "application/json");
+        } catch (IOException e) {
+            app.Logger.LogError(e, "could not open file");
+            return Results.NotFound();
+        }
+    }
+
     if (!count.HasValue) {
         count = courseInfo.Meta.DefCount;
     }
-    app.Logger.LogInformation($"will make up for {count} results");
+    app.Logger.LogInformation($"will make up {count} results");
 
     var detailsToInclude = detail.Split(",");
     var detailMakers = new Dictionary<string, Func<int, string>> {

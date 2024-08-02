@@ -76,7 +76,7 @@
     },
     "Meta": {
       "Schedule": "random",
-      "DefCount": 50
+      "DefCount": 100
     },
     "Splits": [
       {
@@ -196,8 +196,7 @@
       "Remark": ""
     },
     "Meta": {
-      "Schedule": "linear",
-      "DefCount": 60
+      "Schedule": "file"
     },
     "Splits": [
       {
@@ -353,7 +352,7 @@
     },
     "Meta": {
       "Schedule": "linear",
-      "DefCount": 70
+      "DefCount": 30
     },
     "Splits": [
       {
@@ -459,7 +458,7 @@
     },
     "Meta": {
       "Schedule": "linear",
-      "DefCount": 80
+      "DefCount": 40
     },
     "Splits": [
       {
@@ -558,7 +557,7 @@
     },
     "Meta": {
       "Schedule": "linear",
-      "DefCount": 90
+      "DefCount": 50
     },
     "Splits": [
       {
@@ -657,7 +656,7 @@
     },
     "Meta": {
       "Schedule": "linear",
-      "DefCount": 100
+      "DefCount": 60
     },
     "Splits": [
       {
@@ -749,7 +748,7 @@
     },
     "Meta": {
       "Schedule": "linear",
-      "DefCount": 110
+      "DefCount": 70
     },
     "Splits": [
       {
