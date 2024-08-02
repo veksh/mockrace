@@ -119,7 +119,7 @@ mware.MapGet("/result/json", (int course, string detail, string splitnr, int? co
             .Where(p => splitsToInclude.Contains(p.Splitnr))
             .Zip(Enumerable.Range(0, splitsToInclude.Length))
             .ToDictionary(
-                p => p.First.Splitname,
+                p => p.First.Splitname + "_Time",
                 p => reachedSplit >= Convert.ToUInt16(p.Second)
                     ? string.Format("00:{0:00}:00.{1}",
                         Convert.ToUInt16(p.Second),
